@@ -1,46 +1,85 @@
+# BlogSphere – Write, Share, Grow
 
-# ApexPlanet Task 2 - Basic CRUD Blog Application
+A dynamic blog management platform developed as part of **Task 5 of the ApexPlanet Web Development Internship**.
 
-A beginner-friendly blog management application built using PHP, MySQL, HTML and CSS.
+BlogSphere allows users to create, manage, search, and share blog posts through a simple and user-friendly interface.
 
-## Features
+## 🚀 Features
 
-- User registration and login
-- Secure password hashing
-- Session-based authentication
-- Create, read, update and delete blog posts
-- Prepared SQL statements using PDO
-- CSRF protection for state-changing forms
-- Responsive user interface
+- **User Authentication:** Secure user registration, login, and logout.
+- **Personal Dashboard:** Individual dashboard for logged-in users.
+- **Blog Management:** Create, edit, and delete blog posts.
+- **Admin Dashboard:** Admin can manage all blog posts.
+- **Access Control:** Users can manage their own posts, while admins have management privileges.
+- **Search Functionality:** Search blog posts using keywords.
+- **Pagination:** Organize posts across multiple pages.
+- **CSRF Protection:** CSRF tokens for protected form submissions.
+- **Responsive Design:** Clean interface with CSS styling.
 
-## Technologies
+## 🛠️ Technologies Used
 
-- PHP 8+
-- MySQL
 - HTML5
 - CSS3
+- PHP
+- MySQL
 - XAMPP
-- Git and GitHub
+- Visual Studio Code
+- Git & GitHub
 
-## Setup Instructions
+## 📂 Project Structure
+
+```text
+BlogSphere/
+│
+├── index.php
+├── config.php
+├── database.sql
+├── login.php
+├── register.php
+├── logout.php
+├── create.php
+├── edit.php
+├── delete.php
+├── style.css
+└── README.md
+```
+
+## ⚙️ Installation and Setup
 
 1. Install and open XAMPP.
 2. Start Apache and MySQL.
-3. Place this project folder inside `C:\xampp\htdocs`.
-4. Open phpMyAdmin at http://localhost/phpmyadmin.
-5. Import `database.sql` to create the database and tables.
-6. Check the database settings in `config.php`.
-7. Open http://localhost/Apexplanet_task2/ in your browser.
+3. Copy the project folder into the `htdocs` directory.
+4. Open phpMyAdmin.
+5. Create a MySQL database and import `database.sql`.
+6. Check the database configuration in `config.php`.
+7. Open your browser and visit:
 
-## Testing Checklist
+```text
+http://localhost/BlogSphere/
+```
 
-- [ ] Register a new account.
-- [ ] Log in with the account.
-- [ ] Create a blog post.
-- [ ] Edit the post.
-- [ ] Delete the post.
-- [ ] Log out successfully.
+## 🔐 Security Features
 
-## Internship
+- Session-based authentication.
+- Password hashing.
+- CSRF token validation.
+- User-specific post permissions.
+- Admin-level post management.
+- Protected database operations using PDO.
 
-Created as part of ApexPlanet Internship Task 2.
+## 🎯 Internship Information
+
+**Organization:** ApexPlanet Software Pvt. Ltd.  
+**Program:** Web Development Internship  
+**Task:** Task 5  
+**Project:** BlogSphere – Blog Management Platform
+
+## 👨‍💻 Developer
+
+**Omm Prakash Behera**
+
+GitHub: [Omm-007](https://github.com/Omm-007)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
